@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap';
 
 const CardComp = ({ name, price, description, image }) => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} alt={name} />
+    <Card style={{ width: '15rem' }}>
+      <Card.Img variant="top" src={image}  />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
